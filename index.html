@@ -3,15 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <title>Sample Page Title</title>
-    function makeid(length) {
-       var result           = '';
-       var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-       var charactersLength = characters.length;
-       for ( var i = 0; i < length; i++ ) {
-          result += characters.charAt(Math.floor(Math.random() * charactersLength));
-       }
-       return result;
-    }
+    <script>
+        function makeid(length) {
+           var result           = '';
+           var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+           var charactersLength = characters.length;
+           for ( var i = 0; i < length; i++ ) {
+              result += characters.charAt(Math.floor(Math.random() * charactersLength));
+           }
+           return result;
+        }
+    </script>
 </head>
 <body>
 
