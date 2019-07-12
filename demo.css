@@ -1,0 +1,40 @@
+/* change the background color behind your header image and text */
+.jumbotron {
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+/* change the background color of the main page background (around the signer sections) */
+.pagebackground {
+    background-color: #ffffff;
+}
+
+/* change the color of the header text */
+h1 {
+  color: #000000;
+}
+
+/* change the color of the signer 1 background or border and text color*/
+.signer1 {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  color: black;
+}
+
+/* change the color of the signer 2 background or border and text color*/
+.signer2 {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* change the border type */
+.bordertype {
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+/* change the color of the button background or text */
+.btn {
+  background-color: #000000;
+  color: #ffffff;
+}
