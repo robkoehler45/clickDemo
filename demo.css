@@ -2,6 +2,7 @@
 .jumbotron {
   background-color: #ffffff;
   padding: 5px;
+  text-align: center;
 }
 
 /* change the background color of the main page background (around the signer sections) */
