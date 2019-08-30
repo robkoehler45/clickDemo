@@ -9,8 +9,8 @@ function makeid(length) {
 }
 
 function showClickWrapper() {
-  document.getElementById ("start").style.display = "none";
-  document.getElementById ("spin").style.display = "block";
+  document.getElementById ("loginButton").style.display = "none";
+  document.getElementById ("spin").style.display = "table";
   var x = makeid(12) + '-' + document.getElementById ("email").value;
   document.getElementById ("userId").value = x;
   docuSignClick.Clickwrap.render({
