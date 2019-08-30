@@ -36,7 +36,7 @@ function callbackFnAgreed(){
 
 	function callbackFnMustAgree(e){
 		console.log ("callbackFnMustAgree");
-		document.getElementById ("spin").style.display = "none";
+		document.getElementById ("spinner").style.display = "none";
 		//Do something
 	}
 
