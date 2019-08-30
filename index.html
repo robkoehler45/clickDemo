@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://demo.docusign.net/clickapi/sdk/latest/docusign-click.js"></script>
     <link rel="stylesheet" href="demo.css">
     <script src="scripts.js"></script>
 </head>
@@ -26,19 +27,13 @@
           <input type="email" class="form-control" id="email">
         </div>
         <div class="text-center">
-            <button type="button" class="btn btn-primary myBtn">Next</button>
+            <button id="demoButton" onclick="showClickWrapper()" value="go" type="button" class="btn btn-primary myBtn">Next</button>
         </div>
     </div>
-    <div id="ds-terms-of-service" class="d-none"></div>
-    <script src="https://demo.docusign.net/clickapi/sdk/latest/docusign-click.js"></script>
-    <script>docuSignClick.Clickwrap.render({
-        environment: 'https://demo.docusign.net',
-        accountId: '53e87a81-3ab4-43d4-9d29-b7861bfc1e1e',
-        clickwrapId: '8d6ef161-0398-40d7-be90-03136af40036',
-        clientUserId: makeid(12),
-        format: 'modal'
-      }, '#ds-terms-of-service');</script>
-     <div id="finish>
-     </div>
+    <div id="ds-terms-of-service" class="d-none">
+
+    </div>
+    <div id="finish">
+    </div>
 </body>
 </html>
