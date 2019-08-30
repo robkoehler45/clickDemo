@@ -10,7 +10,7 @@ function makeid(length) {
 
 function showClickWrapper() {
   document.getElementById ("start").style.display = "none";
-  document.getElementById ("spin").sytle.display = "block";
+  document.getElementById ("spin").style.display = "block";
   var x = makeid(12);
   document.getElementById ("userId").value = x;
   docuSignClick.Clickwrap.render({
