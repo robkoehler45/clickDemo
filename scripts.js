@@ -10,7 +10,7 @@ function makeid(length) {
 
 function showClickWrapper() {
   document.getElementById ("loginButton").style.display = "none";
-  document.getElementById ("spin").style.display = "table";
+  document.getElementById ("spinner").style.display = "table";
   var x = makeid(12) + '-' + document.getElementById ("email").value;
   document.getElementById ("userId").value = x;
   docuSignClick.Clickwrap.render({
