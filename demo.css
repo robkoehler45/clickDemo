@@ -23,3 +23,8 @@ h1 {
 .myBtn {
   background-color: #3d00b2;
 }
+
+.input-group-prepend span{
+width: 50px;
+color: black;
+}
