@@ -10,7 +10,7 @@ function makeid(length) {
 
 function showClickWrapper() {
   document.getElementById ("start").style.display = "none";
-  document.getElementById("ds-terms-of-service").sytle.display = "block";
+  document.getElementById("spin").sytle.display = "table";
   docuSignClick.Clickwrap.render({
       environment: 'https://demo.docusign.net',
       accountId: '53e87a81-3ab4-43d4-9d29-b7861bfc1e1e',
