@@ -5,7 +5,6 @@ function makeid(length) {
    for ( var i = 0; i < length; i++ ) {
       result += characters.charAt(Math.floor(Math.random() * charactersLength));
    }
-   document.getElementById("userId").value = result;
    return result;
 }
 
@@ -13,6 +12,7 @@ function showClickWrapper() {
   document.getElementById ("start").style.display = "none";
   document.getElementById("spin").sytle.display = "block";
   var x = makeid(12);
+  document.getElementById("userId").value = x;
   docuSignClick.Clickwrap.render({
       environment: 'https://demo.docusign.net',
       accountId: '53e87a81-3ab4-43d4-9d29-b7861bfc1e1e',
