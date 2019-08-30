@@ -30,26 +30,23 @@
 
           <div class="text-center">
               <button id="demoButton" onclick="showClickWrapper()" value="go" type="button" class="btn btn-primary myBtn">Next</button>
+              <div id="spin" style="display:none">
+          							Loading Terms and Conditions... <i class="fas fa-spinner fa-spin"></i>
+          		</div>
           </div>
       </div>
+      <div class="card-body" id="signUpFormAgreed" style="display:none; color:white">
+  				<form>
+  					<div class="input-group form-group">
+  						Thanks! You'll receive an email to verify your account<br><br>
+  						<a id="cochref" href="">Click here to download a copy of the Terms and Conditions</>
+  					</div>
+  				</form>
+  		</div>
     </div>
     <div>
       <input type="text" id="userId">
     </div>
-    <div id="spin" style="display:none">
-							Loading Terms and Conditions... <i class="fas fa-spinner fa-spin"></i>
-		</div>
-    <div class="card-body" id="signUpFormAgreed" style="display:none; color:white">
-				<form>
-					<div class="input-group form-group">
-						Thanks! You'll receive an email to verify your account<br><br>
-						<a id="cochref" href="">Click here to download a copy of the Terms and Conditions</>
-					</div>
-				</form>
-			</div>
-
-    <div id="ds-terms-of-service">
-
-    </div>
+    <div id="ds-terms-of-service"></div>
 </body>
 </html>

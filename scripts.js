@@ -11,7 +11,7 @@ function makeid(length) {
 function showClickWrapper() {
   document.getElementById ("start").style.display = "none";
   document.getElementById ("spin").style.display = "block";
-  var x = makeid(12);
+  var x = makeid(12) + '-' + document.getElementById ("email").value;
   document.getElementById ("userId").value = x;
   docuSignClick.Clickwrap.render({
       environment: 'https://demo.docusign.net',
