@@ -11,7 +11,7 @@ function makeid(length) {
 
 function showClickWrapper() {
   document.getElementById ("start").style.display = "none";
-  document.getElementById("spin").sytle.display = "table";
+  document.getElementById("spin").sytle.display = "block";
   var x = makeid(12);
   docuSignClick.Clickwrap.render({
       environment: 'https://demo.docusign.net',
