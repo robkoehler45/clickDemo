@@ -21,6 +21,7 @@ function showClickWrapper() {
       format: 'modal',
       onAgreed: callbackFnAgreed,
 			onMustAgree: callbackFnMustAgree,
+      onDeclined: callbackFnDeclined,
 			onError: callbackFnError
     }, '#ds-terms-of-service');
   }
@@ -45,3 +46,11 @@ function callbackFnAgreed(){
 		//Do something
 
 	}
+
+  function callbackFnDeclined(){
+    console.log ("callbackFnDeclined");
+    //Do something
+    document.getElementById ('signUpForm').style.display = "none";
+		document.getElementById ('ds-terms-of-service').style.display = "none";
+		document.getElementById ('signUpFormDeclined').style.display = "block";
+  }
