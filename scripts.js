@@ -28,7 +28,6 @@ function showClickWrapper() {
 
 function callbackFnAgreed(){
 		console.log ("callbackFnAgreed");
-		//Do something
 		document.getElementById ('signUpForm').style.display = "none";
 		document.getElementById ('ds-terms-of-service').style.display = "none";
 		document.getElementById ('signUpFormAgreed').style.display = "block";
@@ -38,18 +37,14 @@ function callbackFnAgreed(){
 	function callbackFnMustAgree(e){
 		console.log ("callbackFnMustAgree");
 		document.getElementById ("spinner").style.display = "none";
-		//Do something
 	}
 
 	function callbackFnError(e){
 		console.log ("callbackFnError");
-		//Do something
-
 	}
 
   function callbackFnDeclined(){
     console.log ("callbackFnDeclined");
-    //Do something
     document.getElementById ('signUpForm').style.display = "none";
 		document.getElementById ('ds-terms-of-service').style.display = "none";
 		document.getElementById ('signUpDeclined').style.display = "block";

@@ -15,9 +15,8 @@ h1 {
   color: #3d00b2;
 }
 
-.myInput {
-  padding-left: 25%;
-  padding-right: 25%;
+h3 {
+  color: #3d00b2;
 }
 
 .myBtn {
@@ -28,4 +27,12 @@ h1 {
 .input-group-prepend span{
 width: 50px;
 color: black;
+}
+
+.card {
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
 }
