@@ -14,9 +14,9 @@ function showClickWrapper() {
   var x = makeid(12) + '-' + document.getElementById ("email").value;
   document.getElementById ("userId").value = x;
   docuSignClick.Clickwrap.render({
-      environment: 'https://www.docusign.net',
-      accountId: 'c1eb43d4-c855-4038-8d2f-3060bc205916',
-      clickwrapId: '1716157f-0efc-4bf3-9e5b-458bd2b923dd',
+      environment: 'https://demo.docusign.net',
+      accountId: '53e87a81-3ab4-43d4-9d29-b7861bfc1e1e',
+      clickwrapId: '8d6ef161-0398-40d7-be90-03136af40036',
       clientUserId: x,
       format: 'modal',
       onAgreed: callbackFnAgreed,
@@ -31,7 +31,7 @@ function callbackFnAgreed(){
 		document.getElementById ('signUpForm').style.display = "none";
 		document.getElementById ('ds-terms-of-service').style.display = "none";
 		document.getElementById ('signUpFormAgreed').style.display = "block";
-		document.getElementById ('cochref').href = "https://app.docusign.com/clickwrap/1716157f-0efc-4bf3-9e5b-458bd2b923dd/responses?search=" + document.getElementById ('userId').value;
+		document.getElementById ('cochref').href = "https://appdemo.docusign.com/clickwrap/8d6ef161-0398-40d7-be90-03136af40036/responses?search=" + document.getElementById ('userId').value;
 	}
 
 	function callbackFnMustAgree(e){
