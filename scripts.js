@@ -1,3 +1,5 @@
+
+
 function makeid(length) {
    var result           = '';
    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -31,7 +33,7 @@ function callbackFnAgreed(){
 		document.getElementById ('signUpForm').style.display = "none";
 		document.getElementById ('ds-terms-of-service').style.display = "none";
 		document.getElementById ('signUpFormAgreed').style.display = "block";
-		document.getElementById ('cochref').href = "https://demo.docusign.net/clickapi/v1/accounts/53e87a81-3ab4-43d4-9d29-b7861bfc1e1e/clickwraps/8d6ef161-0398-40d7-be90-03136af40036/users/" + document.getElementById ('userId').value + "/documents/combined";
+		document.getElementById ('cochref').href = "https://appdemo.docusign.com/clickwrap/8d6ef161-0398-40d7-be90-03136af400361/responses?search=" + document.getElementById ('userId').value;
 	}
 
 	function callbackFnMustAgree(e){
