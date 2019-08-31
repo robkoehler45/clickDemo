@@ -43,5 +43,4 @@ function callbackFnAgreed(){
 	function callbackFnError(e){
 		console.log ("callbackFnError");
 		//Do something
-    document.getElementById ('signUpFormError').style.display = "block";
 	}
