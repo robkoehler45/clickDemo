@@ -1,13 +1,13 @@
 /* change the background color behind your header image and text */
 .jumbotron {
-  background-color: #ffffff;
+  background: none;
   padding: 5px;
   text-align: center;
 }
 
-/* change the background color of the main page background (around the signer sections) */
-.pagebackground {
-    background-color: #ffffff;
+/* change the background color of the webpage */
+body {
+  background-color: lightgrey;
 }
 
 /* change the color of the header text */
@@ -15,12 +15,14 @@ h1 {
   color: #3d00b2;
 }
 
+/* change the color of the "Sign Up" text */
 h3 {
   color: #3d00b2;
 }
 
 .myBtn {
   background-color: #3d00b2;
+  color: white;
   margin-top: 10px;
 }
 
@@ -30,11 +32,12 @@ color: black;
 }
 
 .card {
-height: 320px;
+height: 300px;
 width: 400px;
 margin: 0 auto; /* Added */
 float: none; /* Added */
 margin-bottom: 10px; /* Added */
+border-radius: 10px;
 }
 
 .input-group {
