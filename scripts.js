@@ -29,7 +29,7 @@ function callbackFnAgreed(){
 		console.log ("callbackFnAgreed");
 		//Do something
 		document.getElementById ('signUpForm').style.display = "none";
-
+		document.getElementById ('ds-terms-of-service').style.display = "none";
 		document.getElementById ('signUpFormAgreed').style.display = "block";
 		document.getElementById ('cochref').href = "https://appdemo.docusign.com/clickwrap/8d6ef161-0398-40d7-be90-03136af400361/responses?search=" + document.getElementById ('userId').value;
 	}
