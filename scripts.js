@@ -52,5 +52,5 @@ function callbackFnAgreed(){
     //Do something
     document.getElementById ('signUpForm').style.display = "none";
 		document.getElementById ('ds-terms-of-service').style.display = "none";
-		document.getElementById ('signUpFormDeclined').style.display = "block";
+		document.getElementById ('signUpDeclined').style.display = "block";
   }
