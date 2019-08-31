@@ -31,7 +31,7 @@ function callbackFnAgreed(){
 		document.getElementById ('signUpForm').style.display = "none";
 		document.getElementById ('ds-terms-of-service').style.display = "none";
 		document.getElementById ('signUpFormAgreed').style.display = "block";
-		document.getElementById ('cochref').href = "https://appdemo.docusign.com/clickwrap/8d6ef161-0398-40d7-be90-03136af40036/responses";
+		document.getElementById ('cochref').href = "https://appdemo.docusign.com/documents?view=active&type=clickwraps";
 	}
 
 	function callbackFnMustAgree(e){
