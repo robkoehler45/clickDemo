@@ -1,3 +1,7 @@
+var dsAccountId = '53e87a81-3ab4-43d4-9d29-b7861bfc1e1e';
+var dsClickwrapId = '8d6ef161-0398-40d7-be90-03136af40036';
+var logoUrl = 'https://www.innov8ive.app/LOGO.png';
+
 function makeid(length) {
    var result           = '';
    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -8,6 +12,10 @@ function makeid(length) {
    return result;
  }
 
+function loadImage() {
+  document.getElementById ("customerLogo").src = logoUrl;
+}
+
 function showClickWrapper() {
   document.getElementById ("loginButton").style.display = "none";
   document.getElementById ("spinner").style.display = "block";
@@ -15,8 +23,8 @@ function showClickWrapper() {
   document.getElementById ("userId").value = x;
   docuSignClick.Clickwrap.render({
       environment: 'https://demo.docusign.net',
-      accountId: '53e87a81-3ab4-43d4-9d29-b7861bfc1e1e',
-      clickwrapId: '8d6ef161-0398-40d7-be90-03136af40036',
+      accountId: dsAccountId,
+      clickwrapId: dsClickwrapId,
       clientUserId: x,
       format: 'modal',
       onAgreed: callbackFnAgreed,

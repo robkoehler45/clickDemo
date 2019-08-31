@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="demo.css">
     <script src="scripts.js"></script>
 </head>
-<body>
+<body onload="loadImage()">
   <div class="container">
     <div class="jumbotron row">
       <div class="col-sm-2"></div>
@@ -21,7 +21,7 @@
         <h1>DocuSign Click Demo</h1>
       </div>
       <div class="col-sm-4">
-        <img src="https://www.innov8ive.app/LOGO.png" class="img responsive">
+        <img id="customerLogo" src="" class="img responsive">
       </div>
       <div class="col-sm-2"></div>
     </div>
@@ -37,13 +37,13 @@
             </div>
               <input type="text" class="form-control" id="username" placeholder="Username">
           </div>
-          <div class="input-group myInput">
+          <div class="input-group">
             <div class="input-group-prepend">
               <span class="input-group-text"><i class="fas fa-at"></i></span>
             </div>
             <input type="email" class="form-control" id="email" placeholder="Email">
           </div>
-          <div class="input-group myInput">
+          <div class="input-group">
             <div class="input-group-prepend">
               <span class="input-group-text"><i class="fas fa-key"></i></span>
             </div>

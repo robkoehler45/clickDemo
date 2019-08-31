@@ -30,13 +30,13 @@ color: black;
 }
 
 .card {
-height: 370px;
+height: 320px;
 width: 400px;
 margin: 0 auto; /* Added */
 float: none; /* Added */
 margin-bottom: 10px; /* Added */
 }
 
-.form-control {
-  margin-bottom: 10px;
+.input-group {
+  margin-bottom: 5px;
 }
