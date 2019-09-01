@@ -51,6 +51,7 @@ function callbackFnAgreed(){
 	function callbackFnMustAgree(e){
 		console.log ("callbackFnMustAgree");
 		document.getElementById ("spinner").style.display = "none";
+    document.getElementById ("signUpForm").style.display = "none";
 	}
 
 	function callbackFnError(e){
