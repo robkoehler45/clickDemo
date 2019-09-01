@@ -1,4 +1,4 @@
-# Build your own click Demo
+# Build your own DocuSign Click Demo
 ### Here are the steps:
 1. Get a GitHub account if you don't have one - <https://github.com/join?source=header-home> - free version works great
 2. Once you've activated your Github account and you're logged in, go to <https://github.com/robkoehler45/clickDemo>
