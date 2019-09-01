@@ -32,7 +32,7 @@ function showClickWrapper() {
       accountId: dsAccountId,
       clickwrapId: dsClickwrapId,
       clientUserId: x,
-      format: 'modal',
+      format: 'inline',
       onAgreed: callbackFnAgreed,
 			onMustAgree: callbackFnMustAgree,
       onDeclined: callbackFnDeclined,
