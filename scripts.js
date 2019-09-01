@@ -16,8 +16,10 @@ function makeid(length) {
 
 function loadImage() {
   document.getElementById ("customerLogo").src = logoUrl;
-  document.getElementById ("jtHeader").color = fontColor;
-
+  document.getElementById ("jtHeader").style.color = fontColor;
+  document.getElementById ("signInText").style.color = fontColor;
+  document.getElementById ("loginButton").style.background = fontColor;
+  document.getElementById ("loginButton").style.color = buttonTextColor;
 }
 
 function showClickWrapper() {
