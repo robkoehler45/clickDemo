@@ -1,6 +1,8 @@
 var dsAccountId = '53e87a81-3ab4-43d4-9d29-b7861bfc1e1e';
 var dsClickwrapId = '8d6ef161-0398-40d7-be90-03136af40036';
 var logoUrl = 'https://www.innov8ive.app/LOGO.png';
+var fontColor = '#3d00b2';
+var buttonTextColor = '#ffffff';
 
 function makeid(length) {
    var result           = '';
@@ -14,6 +16,8 @@ function makeid(length) {
 
 function loadImage() {
   document.getElementById ("customerLogo").src = logoUrl;
+  document.getElementById ("jtHeader").color = fontColor;
+
 }
 
 function showClickWrapper() {

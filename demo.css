@@ -3,26 +3,16 @@
   background: none;
   padding: 5px;
   text-align: center;
+  background-color: rgba(255,255,255,.5);
 }
 
 /* change the background color of the webpage */
 body {
-  background-color: lightgrey;
-}
-
-/* change the color of the header text */
-h1 {
-  color: #3d00b2;
-}
-
-/* change the color of the "Sign Up" text */
-h3 {
-  color: #3d00b2;
+  background-image: url("images/background.jpg");
+  background-size: cover;
 }
 
 .myBtn {
-  background-color: #3d00b2;
-  color: white;
   margin-top: 10px;
 }
 
@@ -38,6 +28,7 @@ margin: 0 auto; /* Added */
 float: none; /* Added */
 margin-bottom: 10px; /* Added */
 border-radius: 10px;
+background-color: rgba(255,255,255,.9);
 }
 
 .input-group {
