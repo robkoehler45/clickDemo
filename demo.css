@@ -9,7 +9,7 @@
 /* change the background color of the webpage */
 body {
   background-image: url("images/background.jpg");
-  background-size: 2500px;
+  background-size: cover;
 }
 
 .myBtn {
