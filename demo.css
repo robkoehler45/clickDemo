@@ -3,13 +3,13 @@
   background: none;
   padding: 5px;
   text-align: center;
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255,255,255,.7);
 }
 
 /* change the background color of the webpage */
 body {
   background-image: url("images/background.jpg");
-  background-size: cover;
+  background-size: 2500px;
 }
 
 .myBtn {
@@ -22,15 +22,16 @@ color: black;
 }
 
 .card {
-height: 300px;
-width: 400px;
 margin: 0 auto; /* Added */
 float: none; /* Added */
-margin-bottom: 10px; /* Added */
 border-radius: 10px;
 background-color: rgba(255,255,255,.9);
 }
 
 .input-group {
   margin-bottom: 5px;
+}
+
+#customerLogo {
+  height: 100px;
 }
